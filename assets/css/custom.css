@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html,body{
+    min-height: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#goldenWithCarousel{
+    margin-top:-8vh;
+    padding-top: 0px;
+    position: relative;
+    z-index: 100;
+    background: url(../images/golden.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:40vh;
+}
+
+#golden{
+    padding-top:3vh;
+    background: url(../images/golden.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:40vh;
+}
+
+.container {
+    color:#252935;
+}
